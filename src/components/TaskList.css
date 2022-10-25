@@ -1,0 +1,92 @@
+.input-group{
+  display: flex;
+  gap: 0.5rem;
+  margin-top: -2.75rem;
+}
+
+.input-new{
+  width: 39.875rem;
+  height: 3.375rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--gray-400);
+  border: 1px solid  var(--gray-300);
+  color: var(--gray-300);
+}
+
+.submit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  width: 5.625rem;
+  height: 3.375rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--blue-700);
+  color: var(--gray-100);
+}
+
+.info-tasks{
+  display: flex;
+  padding: 1rem 0;
+  justify-content: space-between;
+}
+
+.info-tasks>div{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.task-created{
+  color: var(--blue-300);
+}
+
+.task-completed{
+  color: var(--purple-300);
+}
+
+.counter{
+  background-color: var(--gray-400);
+  color: var(--gray-300);
+  border-radius: 0.5rem;
+  padding: 0 1rem;
+}
+
+ul{
+  list-style-type: none;
+  border-top: 1px solid var(--gray-400);
+  padding-top: 2rem;
+}
+
+li{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: var(--gray-400);
+  border-radius: 0.5rem;
+  border: 1px solid var(--gray-500);
+  margin-bottom: 0.75rem;
+}
+
+li>div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.completed{
+  text-decoration: line-through
+}
+
+.button-trash{
+  background-color: transparent;
+  color: var(--gray-300);
+  border: none;
+}
+
+.button-trash:hover{
+  color: var(--red-500);
+}
